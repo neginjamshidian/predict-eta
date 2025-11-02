@@ -1,0 +1,43 @@
+# === Python bytecode & cache ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === Jupyter artifacts ===
+.ipynb_checkpoints/
+
+# === Virtual environments ===
+.venv/
+env/
+ENV/
+venv/
+*.env
+
+# === macOS / Windows system files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Data, mock data & models ===
+data/
+mock_data/
+models/
+
+# === Logs & temp files ===
+*.log
+*.tmp
+*.bak
+
+# === IDE / Editor directories ===
+.vscode/
+.idea/
+
+# === Python build artifacts ===
+build/
+dist/
+*.egg-info/
+
+# === Custom project ignores ===
+# Ignore example HTML notebook exports
+*.html
